@@ -1,0 +1,99 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    
+    <ion-buttons slot="start">
+      <ion-button routerLink="../tab2">
+      <ion-icon slot="icon-only" name="arrow-undo-outline" ></ion-icon>
+      
+    </ion-button>
+  </ion-buttons>
+
+    <ion-title> <h2> Mejores Jugadores</h2></ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="../tab4">
+      <ion-icon slot="icon-only" name="arrow-redo-outline" ></ion-icon>
+      
+    </ion-button>
+  </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <ion-list>
+    <ion-list-header>  </ion-list-header>
+
+    <ion-item>
+      <ion-avatar slot="start">
+         <img src="/assets/imagenes/mara.png">
+      </ion-avatar>
+      <ion-label>
+        <h2>Maradona</h2>
+        <h3>nacio en argentina el 30/09/1960 y<br> murio 25/11/2020</h3>
+        <p>Diego Armando Maradona​ fue un <br> futbolista y entrenador argentino. <br> 
+            Como jugador, se desempeñó como<br> mediocampista o delantero, y es<br> reconocido por ser
+             uno de los mejores <br >futbolistas en la historia</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="/assets/imagenes/messi.png">
+      </ion-avatar>
+      <ion-label>
+        <h2>Messi</h2>
+        <h3>Nacio en argentina el 24/04/1987</h3>
+        <p>Lionel Andrés Messi Cuccittini, conocido<br> como Leo Messi, es un futbolista<br> argentino
+           que juega como delantero o <br>centrocampista. Jugador histórico<br> del Fútbol Club Barcelona,</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="/assets/imagenes/pele.png">
+      </ion-avatar>
+      <ion-label>
+        <h2>Pele</h2>
+        <h3>Nacio en Brasil el 23/10/1940</h3>
+        <p>Edson Arantes do Nascimento, más<br> conocido como Pelé, es un exfutbolista<br> brasileño que jugó como 
+          delantero y ha<br>sido reconocido por muchos especialistas,<br>como el mejor de la historia</p>
+      </ion-label>
+    </ion-item>
+    
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="/assets/imagenes/cr.png">
+      </ion-avatar>
+      <ion-label>
+        <h2>Cristiano Ronaldo</h2>
+        <h3>Nacio en Portugal el 5/02/1985</h3>
+        <p>conocido como Cristiano Ronaldo o CR7,<br> es un futbolista portugués que juega<br> como delantero
+           en el Manchester <br>United  y en la selección de Portugal,<br> de la cual es su capitán y máximo<br> goleador histórico.</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-fab vertical="center" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="reorder-four-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-fab-button href="https://twitter.com/be46329584"><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="bottom">
+      <ion-fab-button href="https://www.facebook.com/edgar.beltran.1238"><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="start">
+      <ion-fab-button href="https://www.instagram.com/beltran6084/?hl=es-la"><ion-icon name="logo-instagram"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="end">
+      <ion-fab-button><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+
+  
+ 
+      
+   <ion-button color="success" routerLink="../tab2">Clubes</ion-button>
+   <ion-button color="success" routerLink="../tab4">Competencias</ion-button>
+   
+</ion-content>

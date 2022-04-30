@@ -1,0 +1,91 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/" text="" icon="arrow-undo-outline"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title><h2>Clubes</h2></ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button routerLink="../tab3">
+      <ion-icon slot="icon-only" name="arrow-redo-outline" ></ion-icon>
+
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  
+
+  <ion-fab vertical="center" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="reorder-four-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-fab-button href="https://twitter.com/be46329584"><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="bottom">
+      <ion-fab-button href="https://www.facebook.com/edgar.beltran.1238"><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="start">
+      <ion-fab-button href="https://www.instagram.com/beltran6084/?hl=es-la"><ion-icon name="logo-instagram"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="end">
+      <ion-fab-button><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+
+
+  
+  <ion-card>
+    <img src="/assets/imagenes/real.png">
+    <ion-card-header>
+      <ion-card-subtitle>Clubes</ion-card-subtitle>
+      <ion-card-title><h3>Real Madrid</h3></ion-card-title>
+    </ion-card-header>
+    
+    <ion-card-content>
+      El Liverpool es uno de los clubes más históricos de Europa y de la Premier League. 
+  Tras una mala racha ha vuelto a ponerse en
+   primera plana mundial y sigue siendo uno de los clubes más seguidos.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img src="/assets/imagenes/liver.png">
+    <ion-card-header>
+      <ion-card-subtitle>Clubes</ion-card-subtitle>
+      <ion-card-title><h3>Liverpool</h3></ion-card-title>
+    </ion-card-header>
+    
+    <ion-card-content>
+      El Liverpool es uno de los clubes más históricos de Europa y de la Premier League. 
+  Tras una mala racha ha vuelto a ponerse en
+   primera plana mundial y sigue siendo uno de los clubes más seguidos.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img src="/assets/imagenes/barcelona.png">
+    <ion-card-header>
+      <ion-card-subtitle>Clubes</ion-card-subtitle>
+      <ion-card-title><h3>Barcelona</h3></ion-card-title>
+    </ion-card-header>
+    
+    <ion-card-content>
+      sLa posición número tres es para el Barcelona. El equipo azul grana ha conseguido el título de la Uefa Champions League en cuatro oportunidades. 
+      Del mismo modo, ha sido campeón de la Liga en 25 ocasiones y de la Copa del Rey en 25.
+    </ion-card-content>
+  </ion-card>
+ 
+  
+ <ion-button color="success" routerLink="../tab1">Inicio</ion-button>
+ <ion-button color="success" href="https://www.mediotiempo.com/">MedioTiempo</ion-button>
+   <ion-button color="success" routerLink="../tab3">Clubes</ion-button>
+  
+
+</ion-content>

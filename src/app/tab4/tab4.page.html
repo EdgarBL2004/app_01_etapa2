@@ -1,0 +1,110 @@
+<ion-header>
+  <ion-toolbar>
+
+    
+    <ion-buttons slot="start">
+      <ion-button routerLink="../tab3">
+      <ion-icon slot="icon-only" name="arrow-undo-outline" ></ion-icon>
+      
+    </ion-button>
+  </ion-buttons>
+
+    <ion-title><h2>Competencias</h2></ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="../tab1">
+      <ion-icon slot="icon-only" name="arrow-redo-outline" ></ion-icon>
+      
+    </ion-button>
+  </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <h3>Mundial de futbol</h3>
+         <p> También conocido como Copa del Mundo, es el torneo más importante que existe a nivel de selecciones nacionales, y 
+  desde 1.930 se lleva a cabo cada cuatro años en diferentes países. El mundial de fútbol cuenta con dos etapas
+   principales: una etapa clasificatoria previa, en la que participan alrededor de 200 países, y una fase 
+   final donde participan 32 equipos finalistas</p>
+      </ion-col>
+      <ion-col>
+        <br> <br> <br> <br> <br> <br> <br> <br>
+        <img src="/assets/imagenes/mundial.png">
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <h3>UEFA Champions League</h3>
+        Anteriormente conocida como Copa Europa, la Champions League es un torneo anual, organizado por
+        la Unión de Asociaciones Europeas de Fútbol (UEFA) y que se disputa por los clubes europeos de 
+         máxima división, más concretamente por los campeones de las 
+        ligas nacionales, más uno, dos o tres equipos finalistas de cada liga
+      </ion-col>
+      <ion-col>
+        <br> <br> <br> <br> <br> <br> <br> <br>
+        <img src="/assets/imagenes/champions.png">
+      </ion-col>
+    </ion-row>
+
+</ion-grid>
+
+
+  <ion-fab vertical="center" horizontal="end" slot="fixed">
+    <ion-fab-button>
+      <ion-icon name="reorder-four-outline"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-fab-button href="https://twitter.com/be46329584"><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="bottom">
+      <ion-fab-button href="https://www.facebook.com/edgar.beltran.1238"><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="start">
+      <ion-fab-button href="https://www.instagram.com/beltran6084/?hl=es-la"><ion-icon name="logo-instagram"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+    <ion-fab-list side="end">
+      <ion-fab-button><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+    </ion-fab-list>
+  </ion-fab>
+
+  
+  <ion-card>
+    <img src="/assets/imagenes/mundial.png">
+    <ion-card-header>
+      <ion-card-subtitle>Competencias</ion-card-subtitle>
+      <ion-card-title><h3>Mundial de futbol</h3></ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      También conocido como Copa del Mundo, es el torneo más importante que existe a nivel de selecciones nacionales, y 
+  desde 1.930 se lleva a cabo cada cuatro años en diferentes países. El mundial de fútbol cuenta con dos etapas
+   principales: una etapa clasificatoria previa, en la que participan alrededor de 200 países, y una fase 
+   final donde participan 32 equipos finalistas
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <img src="/assets/imagenes/champions.png">
+    <ion-card-header>
+      <ion-card-subtitle>Competencias</ion-card-subtitle>
+      <ion-card-title><h3>UEFA Champions League</h3></ion-card-title>
+    </ion-card-header>
+    Anteriormente conocida como Copa Europa, la Champions League es un torneo anual, organizado por
+    la Unión de Asociaciones Europeas de Fútbol (UEFA) y que se disputa por los clubes europeos de 
+     máxima división, más concretamente por los campeones de las 
+    ligas nacionales, más uno, dos o tres equipos finalistas de cada liga
+    <ion-card-content>
+      
+    </ion-card-content>
+  </ion-card>
+
+
+   <ion-button color="success" routerLink="../tab3">Clubes</ion-button>
+   <ion-button color="success" routerLink="../tab1">Inicio</ion-button>
+ 
+  
+
+</ion-content>
